@@ -1,0 +1,65 @@
+{
+  "count": 50,
+  "next": null,
+  "previous": null,
+  "results": [
+    {
+      "_class": "assessment",
+      "id": 67566680,
+      "assessment_type": "multiple-choice",
+      "prompt": {
+        "relatedLectureIds": "",
+        "answers": [
+          "The ability to withstand denial of service attacks",
+          "<p>The ability of it to add and reduce capacity based on actual demand</p>",
+          "The ability of it to stay up (available) while updates are being made to the system",
+          "<p>The ability to heal itself after a crash</p>"
+        ],
+        "question": "What feature of a system makes it elastic?",
+        "explanation": "<p>Elasticity - the ability of a system to automatically grow when maximum capacity is reached, and automatically shrink to minimize waste</p><p><br></p><p>For more info: <a href=\"https://azure.microsoft.com/en-us/overview/what-is-elastic-computing/\">https://azure.microsoft.com/en-us/overview/what-is-elastic-computing/</a></p>",
+        "feedbacks": ["", "", "", ""]
+      },
+      "correct_response": ["b"],
+      "section": "Benefits of cloud services",
+      "question_plain": "What feature of a system makes it elastic?",
+      "related_lectures": []
+    },
+    {
+      "_class": "assessment",
+      "id": 67566682,
+      "assessment_type": "multiple-choice",
+      "prompt": {
+        "relatedLectureIds": "",
+        "answers": [
+          "The more you buy of something, the cheaper it is for you",
+          "Big companies don&#39;t need to make a profit on every sale",
+          "Big companies don&#39;t need to make a profit on the first product they sell you, because they will on the second",
+          "Prices of cloud servers and services are always going down. It&#39;ll be cheaper next year than it is this year."
+        ],
+        "question": "What is the benefit of economies of scale?",
+        "explanation": "<p>Economies of scale - the more you buy something, the cheaper it is per unit to buy</p><p><br></p><p>For more info: <a href=\"https://www.microsoft.com/en-us/microsoft-365/business-insights-ideas/resources/how-economies-of-scale-affect-small-businesses\">https://www.microsoft.com/en-us/microsoft-365/business-insights-ideas/resources/how-economies-of-scale-affect-small-businesses</a></p>",
+        "feedbacks": ["", "", "", ""]
+      },
+      "correct_response": ["a"],
+      "section": "Benefits of cloud services",
+      "question_plain": "What is the benefit of economies of scale?",
+      "related_lectures": []
+    },
+    {
+      "_class": "assessment",
+      "id": 67566684,
+      "assessment_type": "multiple-choice",
+      "prompt": {
+        "relatedLectureIds": "",
+        "answers": ["CapEx", "OpEx"],
+        "question": "For tax optimization, which type of expense is preferable?",
+        "explanation": "<p>Operating Expenditure is thought to be preferable because you can fully deduct expenses when they are incurred</p><p><br></p><p>For more info: https://docs.microsoft.com/en-us/azure/cloud-adoption-framework/strategy/business-outcomes/fiscal-outcomes#capital-expenses-and-operating-expenses</p>",
+        "feedbacks": ["", ""]
+      },
+      "correct_response": ["b"],
+      "section": "Benefits of cloud services",
+      "question_plain": "For tax optimization, which type of expense is preferable?",
+      "related_lectures": []
+    }
+  ]
+}

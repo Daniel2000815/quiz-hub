@@ -1,0 +1,1002 @@
+{
+  "count": 50,
+  "next": null,
+  "previous": null,
+  "results": [
+    {
+      "_class": "assessment",
+      "id": 67566680,
+      "assessment_type": "multiple-choice",
+      "prompt": {
+        "relatedLectureIds": "",
+        "answers": [
+          "The ability to withstand denial of service attacks",
+          "<p>The ability of it to add and reduce capacity based on actual demand</p>",
+          "The ability of it to stay up (available) while updates are being made to the system",
+          "<p>The ability to heal itself after a crash</p>"
+        ],
+        "question": "What feature of a system makes it elastic?",
+        "explanation": "<p>Elasticity - the ability of a system to automatically grow when maximum capacity is reached, and automatically shrink to minimize waste</p><p><br></p><p>For more info: <a href=\"https://azure.microsoft.com/en-us/overview/what-is-elastic-computing/\">https://azure.microsoft.com/en-us/overview/what-is-elastic-computing/</a></p>",
+        "feedbacks": ["", "", "", ""]
+      },
+      "correct_response": ["b"],
+      "section": "Benefits of cloud services",
+      "question_plain": "What feature of a system makes it elastic?",
+      "related_lectures": []
+    },
+    {
+      "_class": "assessment",
+      "id": 67566682,
+      "assessment_type": "multiple-choice",
+      "prompt": {
+        "relatedLectureIds": "",
+        "answers": [
+          "The more you buy of something, the cheaper it is for you",
+          "Big companies don&#39;t need to make a profit on every sale",
+          "Big companies don&#39;t need to make a profit on the first product they sell you, because they will on the second",
+          "Prices of cloud servers and services are always going down. It&#39;ll be cheaper next year than it is this year."
+        ],
+        "question": "<p>What is the benefit of economies of scale?</p>",
+        "explanation": "<p>Economies of scale - the more you buy something, the cheaper it is per unit to buy</p><p><br></p><p>For more info: <a href=\"https://www.microsoft.com/en-us/microsoft-365/business-insights-ideas/resources/how-economies-of-scale-affect-small-businesses\">https://www.microsoft.com/en-us/microsoft-365/business-insights-ideas/resources/how-economies-of-scale-affect-small-businesses</a></p>",
+        "feedbacks": ["", "", "", ""]
+      },
+      "correct_response": ["a"],
+      "section": "Benefits of cloud services",
+      "question_plain": "What is the benefit of economies of scale?",
+      "related_lectures": []
+    },
+    {
+      "_class": "assessment",
+      "id": 67566684,
+      "assessment_type": "multiple-choice",
+      "prompt": {
+        "relatedLectureIds": "",
+        "answers": ["CapEx", "OpEx"],
+        "question": "For tax optimization, which type of expense is preferable?",
+        "explanation": "<p>Operating Expenditure is thought to be preferable because you can fully deduct expenses when they are incurred</p><p><br></p><p>For more info: https://docs.microsoft.com/en-us/azure/cloud-adoption-framework/strategy/business-outcomes/fiscal-outcomes#capital-expenses-and-operating-expenses</p>",
+        "feedbacks": ["", ""]
+      },
+      "correct_response": ["b"],
+      "section": "Benefits of cloud services",
+      "question_plain": "For tax optimization, which type of expense is preferable?",
+      "related_lectures": []
+    },
+    {
+      "_class": "assessment",
+      "id": 67566686,
+      "assessment_type": "multiple-choice",
+      "prompt": {
+        "relatedLectureIds": "",
+        "answers": [
+          "You can easily predict the cost of the service into the future",
+          "It is always cheaper to pay for consumption than to pay by the hour",
+          "You can save a lot of money if you don&#39;t use the resource often as opposed to having it available for use 24/7",
+          "The pricing model is simpler and easier to understand"
+        ],
+        "question": "<p>Why would someone prefer a Consumption-based pricing model as opposed to a Time-based (Fixed) pricing model?</p>",
+        "explanation": "<p>Consumption-Based Model - paying for something based on how much you used, as opposed to paying for something no matter if you use it or not. </p><p><br></p><p>For more info: <a href=\"https://docs.microsoft.com/en-us/azure/architecture/framework/cost/design-price\">https://docs.microsoft.com/en-us/azure/architecture/framework/cost/design-price</a></p>",
+        "feedbacks": ["", "", "", ""]
+      },
+      "correct_response": ["c"],
+      "section": "Benefits of cloud services",
+      "question_plain": "Why would someone prefer a Consumption-based pricing model as opposed to a Time-based (Fixed) pricing model?",
+      "related_lectures": []
+    },
+    {
+      "_class": "assessment",
+      "id": 67566688,
+      "assessment_type": "multiple-choice",
+      "prompt": {
+        "relatedLectureIds": "",
+        "answers": [
+          "Virtual Machine",
+          "Virtual Network",
+          "Virtual Network Interface Card (NIC)",
+          "Azure Functions App"
+        ],
+        "question": "Which of the following services would NOT be considered Infrastructure as a Service?",
+        "explanation": "<p>Functions are small pieces of code that you give to Azure to run for you, and you have no access to the underlying infrastructure.</p><p><br></p><p>For more info: <a href=\"https://azure.microsoft.com/en-us/overview/what-is-iaas/\">https://azure.microsoft.com/en-us/overview/what-is-iaas/</a> </p>",
+        "feedbacks": ["", "", "", ""]
+      },
+      "correct_response": ["d"],
+      "section": "IaaS PaaS and SaaS",
+      "question_plain": "Which of the following services would NOT be considered Infrastructure as a Service?",
+      "related_lectures": []
+    },
+    {
+      "_class": "assessment",
+      "id": 67566690,
+      "assessment_type": "multiple-choice",
+      "prompt": {
+        "relatedLectureIds": "",
+        "answers": [
+          "You are responsible for keeping the operating system up to date with the latest patches",
+          "You can decide on what type of virtual machine it runs - A-series, or D-series, or even H-series",
+          "You give Azure the code and the configuration, and you have no access to the underlying hardware",
+          "<p>Azure App Services is not PaaS. It is Software as a Service.</p>"
+        ],
+        "question": "<p>Why is Azure App Services considered Platform as a Service?</p>",
+        "explanation": "<p>PaaS - You give Azure the code and the configuration, and you have no access to the underlying hardware</p><p><br></p><p>For more info: <a href=\"https://azure.microsoft.com/en-us/overview/what-is-paas/\">https://azure.microsoft.com/en-us/overview/what-is-paas/</a></p>",
+        "feedbacks": ["", "", "", ""]
+      },
+      "correct_response": ["c"],
+      "section": "IaaS PaaS and SaaS",
+      "question_plain": "Why is Azure App Services considered Platform as a Service?",
+      "related_lectures": []
+    },
+    {
+      "_class": "assessment",
+      "id": 67566692,
+      "assessment_type": "multiple-choice",
+      "prompt": {
+        "relatedLectureIds": "",
+        "answers": ["TRUE", "FALSE"],
+        "question": "<p>True or False: Under the Infrastructure as a Service model, Azure is responsible for managing the physical host, physical network, and physical datacenter.</p>",
+        "explanation": "<p>Yes, Azure still manages the hardware itself, the hypervisor and all of the physical elements behind the scenes</p><p><br></p><p>For more info: <a href=\"https://docs.microsoft.com/en-us/azure/security/fundamentals/shared-responsibility\">https://docs.microsoft.com/en-us/azure/security/fundamentals/shared-responsibility</a> </p>",
+        "feedbacks": ["", ""]
+      },
+      "correct_response": ["a"],
+      "section": "IaaS PaaS and SaaS",
+      "question_plain": "True or False: Under the Infrastructure as a Service model, Azure is responsible for managing the physical host, physical network, and physical datacenter.",
+      "related_lectures": []
+    },
+    {
+      "_class": "assessment",
+      "id": 67566694,
+      "assessment_type": "multiple-choice",
+      "prompt": {
+        "relatedLectureIds": "",
+        "answers": ["TRUE", "FALSE"],
+        "question": "True or False: Azure is a public cloud, and has no private cloud offerings",
+        "explanation": "<p>Some aspects of Azure are not open to the public and require a private agreement with Microsoft such as Azure Government and DoD services</p><p><br></p><p>For more info: <a href=\"https://azure.microsoft.com/en-us/overview/what-are-private-public-hybrid-clouds/\">https://azure.microsoft.com/en-us/overview/what-are-private-public-hybrid-clouds/</a> </p>",
+        "feedbacks": ["", ""]
+      },
+      "correct_response": ["b"],
+      "section": "Public Private and Hybrid cloud",
+      "question_plain": "True or False: Azure is a public cloud, and has no private cloud offerings",
+      "related_lectures": []
+    },
+    {
+      "_class": "assessment",
+      "id": 67566696,
+      "assessment_type": "multiple-choice",
+      "prompt": {
+        "relatedLectureIds": "",
+        "answers": ["TRUE", "FALSE"],
+        "question": "With Azure public cloud, anyone with a valid credit card can sign up and get services immediately",
+        "explanation": "<p>Yes, Azure public cloud is open to the public in all countries that Azure supports.</p><p><br></p><p>For more info: <a href=\"https://azure.microsoft.com/en-gb/overview/what-is-a-public-cloud/\">https://azure.microsoft.com/en-gb/overview/what-is-a-public-cloud/</a> </p>",
+        "feedbacks": ["", ""]
+      },
+      "correct_response": ["a"],
+      "section": "Public Private and Hybrid cloud",
+      "question_plain": "With Azure public cloud, anyone with a valid credit card can sign up and get services immediately",
+      "related_lectures": []
+    },
+    {
+      "_class": "assessment",
+      "id": 67566698,
+      "assessment_type": "multiple-choice",
+      "prompt": {
+        "relatedLectureIds": "",
+        "answers": ["10", "25", "<p>Was 54, now 60+</p>", "100"],
+        "question": "Approximately how many regions does Azure have around the world?",
+        "explanation": "<p>They keep adding them all the time. There are now over 60 Azure regions, in 10 geographies</p><p><br></p><p>For more info: <a href=\"https://azure.microsoft.com/en-us/global-infrastructure/regions/\">https://azure.microsoft.com/en-us/global-infrastructure/regions/</a> </p>",
+        "feedbacks": ["", "", "", ""]
+      },
+      "correct_response": ["c"],
+      "section": "Core Azure components",
+      "question_plain": "Approximately how many regions does Azure have around the world?",
+      "related_lectures": []
+    },
+    {
+      "_class": "assessment",
+      "id": 67566700,
+      "assessment_type": "multiple-choice",
+      "prompt": {
+        "relatedLectureIds": "",
+        "answers": [
+          "A feature of Azure that allows you to manually specify into which data center your virtual machines are placed, which allows you to achieve higher availability than any other option.",
+          "A folder structure in Azure in which you organize resources like databases, virtual machines, virtual networks, or almost any resource \n",
+          "This is the same as a region",
+          "Within each individual data center, certain racks of servers have been architected by Azure to have higher uptime than the others. If you place your apps onto this rack, you&#39;ll get higher uptime than if you let Azure do it."
+        ],
+        "question": "What are Azure Availability Zones?",
+        "explanation": "<p>Availability Zones - Unique physical locations within an Azure region, made up of one or more data centers; there is a minimum of three zones in each region; you can manually place your resources in an availability zone for highest availability </p><p><br></p><p>For more info: <a href=\"https://docs.microsoft.com/en-us/azure/availability-zones/az-overview\">https://docs.microsoft.com/en-us/azure/availability-zones/az-overview</a> </p>",
+        "feedbacks": ["", "", "", ""]
+      },
+      "correct_response": ["a"],
+      "section": "Core Azure components",
+      "question_plain": "What are Azure Availability Zones?",
+      "related_lectures": []
+    },
+    {
+      "_class": "assessment",
+      "id": 67566702,
+      "assessment_type": "multiple-choice",
+      "prompt": {
+        "relatedLectureIds": "",
+        "answers": [
+          "Advanced RISC Machine",
+          "Azure Resource Manager",
+          "Account Resource Manager",
+          "Availability, Reliability, Maintainability"
+        ],
+        "question": "<p>What does ARM an abbreviation for in Azure?</p>",
+        "explanation": "<p>Azure Resource Manager (ARM) - this is the common resource deployment model that underlies all resource creation or modification; no matter whether you use the portal, PowerShell or the SDK, the Azure Resource Manager takes those commands and executes them</p><p><br></p><p>For more info: <a href=\"https://docs.microsoft.com/en-us/azure/azure-resource-manager/management/overview\">https://docs.microsoft.com/en-us/azure/azure-resource-manager/management/overview</a> </p>",
+        "feedbacks": ["", "", "", ""]
+      },
+      "correct_response": ["b"],
+      "section": "Core Azure components",
+      "question_plain": "What does ARM an abbreviation for in Azure?",
+      "related_lectures": []
+    },
+    {
+      "_class": "assessment",
+      "id": 67566704,
+      "assessment_type": "multiple-choice",
+      "prompt": {
+        "relatedLectureIds": "",
+        "answers": [
+          "Automatically assigned groups of resources that all have the same type (virtual machine, app service, etc)",
+          "Based on the tag assigned to a resource by the deployment script, it is assigned to a group",
+          "A folder structure in Azure in which you organize resources like databases, virtual machines, virtual networks, or almost any resource ",
+          "<p>Within the Azure security model, users are organized into groups, and those groups are granted permissions to resources</p>"
+        ],
+        "question": "<p>What are Resource Groups in Azure?</p>",
+        "explanation": "<p>Resource Groups - a folder structure in Azure in which you organize resources like databases, virtual machines, virtual networks, or almost any resource </p><p><br></p><p>For more info: <a href=\"https://docs.microsoft.com/en-us/azure/azure-resource-manager/management/overview#resource-groups\">https://docs.microsoft.com/en-us/azure/azure-resource-manager/management/overview#resource-groups</a> </p>",
+        "feedbacks": ["", "", "", ""]
+      },
+      "correct_response": ["c"],
+      "section": "Core Azure components",
+      "question_plain": "What are Resource Groups in Azure?",
+      "related_lectures": []
+    },
+    {
+      "_class": "assessment",
+      "id": 67566706,
+      "assessment_type": "multiple-choice",
+      "prompt": {
+        "relatedLectureIds": "",
+        "answers": [
+          "Resources that perform some type of task that requires CPU cycles to perform the work",
+          "Only Virtual Machines",
+          "All resources that are listed in the Azure Marketplace"
+        ],
+        "question": "What types of resources are defined as &quot;compute resources&quot;?",
+        "explanation": "<p>Compute Services - a category of services in Azure that provides CPU cycles for rent. Virtual Machines are only one type of compute resource. The Marketplace contains many types of resources, not just compute.</p><p><br></p><p>For more info: <a href=\"https://azure.microsoft.com/en-us/product-categories/compute/\">https://azure.microsoft.com/en-us/product-categories/compute/</a> </p>",
+        "feedbacks": ["", "", ""]
+      },
+      "correct_response": ["a"],
+      "section": "Core Azure products",
+      "question_plain": "What types of resources are defined as &quot;compute resources&quot;?",
+      "related_lectures": []
+    },
+    {
+      "_class": "assessment",
+      "id": 67566708,
+      "assessment_type": "multiple-choice",
+      "prompt": {
+        "relatedLectureIds": "",
+        "answers": [
+          "Windows",
+          "Linux",
+          "Windows and Linux",
+          "macOS",
+          "Windows, Linux and macOS"
+        ],
+        "question": "<p>What operating systems does Microsoft supply Azure Virtual Machine images for?</p>",
+        "explanation": "<p>Azure Virtual Machines support Windows and Linux</p><p><br></p><p>For more info: <a href=\"https://azure.microsoft.com/en-ca/services/virtual-machines/\">https://azure.microsoft.com/en-ca/services/virtual-machines/</a></p>",
+        "feedbacks": ["", "", "", "", ""]
+      },
+      "correct_response": ["c"],
+      "section": "Core Azure products",
+      "question_plain": "What operating systems does Microsoft supply Azure Virtual Machine images for?",
+      "related_lectures": []
+    },
+    {
+      "_class": "assessment",
+      "id": 67566710,
+      "assessment_type": "multiple-choice",
+      "prompt": {
+        "relatedLectureIds": "",
+        "answers": [
+          "Azure App Services",
+          "Azure Logic Apps",
+          "Virtual Network",
+          "Load Balancer or Application Gateway"
+        ],
+        "question": "What Azure resource allows you to evenly split traffic coming in and direct it to several identical virtual machines to do the work and respond to the request?",
+        "explanation": "<p>This is the core feature of either a Load Balancer or Application Gateway</p><p><br></p><p>For more info: <a href=\"https://docs.microsoft.com/en-us/azure/architecture/guide/technology-choices/load-balancing-overview\">https://docs.microsoft.com/en-us/azure/architecture/guide/technology-choices/load-balancing-overview</a> </p>",
+        "feedbacks": ["", "", "", ""]
+      },
+      "correct_response": ["d"],
+      "section": "Core Azure products",
+      "question_plain": "What Azure resource allows you to evenly split traffic coming in and direct it to several identical virtual machines to do the work and respond to the request?",
+      "related_lectures": []
+    },
+    {
+      "_class": "assessment",
+      "id": 67566712,
+      "assessment_type": "multiple-choice",
+      "prompt": {
+        "relatedLectureIds": "",
+        "answers": [
+          "Allows you to keep temporarily session information on the web visitor such as their login ID or their name",
+          "<p>Allows you to reduce the traffic coming into a web server for static, unchanging files such as images, videos, and PDFs</p>",
+          "Allows you to store data that can be retrieved later in an extremely fast and inexpensive manner",
+          "For a small fee, Azure will take over management of your virtual machine, perform OS updates and ensure it&#39;s running well"
+        ],
+        "question": "What benefit does a Content Delivery Network (CDN) provide its users?",
+        "explanation": "<p>Content Delivery Network - allows you to improve performance by removing the burden of serving static, unchanging files from the main server to a network of servers around the globe; a CDN can reduce traffic to a server by 50% or more, which means you can serve more users or serve the same users faster; SaaS</p><p><br></p><p>For more info: <a href=\"https://docs.microsoft.com/en-us/azure/cdn/cdn-overview\">https://docs.microsoft.com/en-us/azure/cdn/cdn-overview</a></p>",
+        "feedbacks": ["", "", "", ""]
+      },
+      "correct_response": ["b"],
+      "section": "Core Azure products",
+      "question_plain": "What benefit does a Content Delivery Network (CDN) provide its users?",
+      "related_lectures": []
+    },
+    {
+      "_class": "assessment",
+      "id": 67566714,
+      "assessment_type": "multiple-choice",
+      "prompt": {
+        "relatedLectureIds": "",
+        "answers": [
+          "A refrigerator that monitors how much milk you have left and sends you a text message when you are running low",
+          "A web application that people use to perform their banking tasks",
+          "A video game, installed on Windows clients around the world, that keep user scores in the cloud.",
+          "A mobile application that is used to watch online video courses"
+        ],
+        "question": "Which of the following would be an example of an Internet of Things (IoT) device?",
+        "explanation": "<p>An IoT device is not a standard computing device but connects to a network to report data on a regular basis. A web server, a personal computer, or a mobile app is not an IoT device.</p><p><br></p><p>For more info: <a href=\"https://docs.microsoft.com/en-us/azure/iot-fundamentals/iot-introduction\">https://docs.microsoft.com/en-us/azure/iot-fundamentals/iot-introduction</a></p>",
+        "feedbacks": ["", "", "", ""]
+      },
+      "correct_response": ["a"],
+      "section": "Core Azure solutions",
+      "question_plain": "Which of the following would be an example of an Internet of Things (IoT) device?",
+      "related_lectures": []
+    },
+    {
+      "_class": "assessment",
+      "id": 67566716,
+      "assessment_type": "multiple-choice",
+      "prompt": {
+        "relatedLectureIds": "",
+        "answers": [
+          "An extremely large set of data that you want to ingest and do analysis on; traditional software like SQL Server cannot handle Big Data as efficiently as specialized products",
+          "<p>A small sensor or a similar device that constantly sends its status and other data to the cloud</p>",
+          "<p>A form of artificial intelligence (AI) that allows systems to automatically learn and improve from experience without being explicitly programmed</p>",
+          "A set of Azure services that allow you to use execute code in the cloud but don’t require (or even allow) you to manage the underlying server"
+        ],
+        "question": "What is the concept of Big Data?",
+        "explanation": "<p>Big Data - a set of open-source (Apache Hadoop) products that can do analysis on millions and billions of rows of data; current tools like SQL Server are not good for this scale </p><p><br></p><p>For more info: <a href=\"https://docs.microsoft.com/en-us/azure/architecture/guide/architecture-styles/big-data\">https://docs.microsoft.com/en-us/azure/architecture/guide/architecture-styles/big-data</a></p>",
+        "feedbacks": ["", "", "", ""]
+      },
+      "correct_response": ["a"],
+      "section": "Core Azure solutions",
+      "question_plain": "What is the concept of Big Data?",
+      "related_lectures": []
+    },
+    {
+      "_class": "assessment",
+      "id": 67566718,
+      "assessment_type": "multiple-choice",
+      "prompt": {
+        "relatedLectureIds": "",
+        "answers": [
+          "Recognize faces in a picture",
+          "Recognize text in an image",
+          "Translate text from one language to another",
+          "Speak text in an extremely realistic way",
+          "Create text from audio",
+          "All of these! Azure can do it all!"
+        ],
+        "question": "Which of the following is something that Azure Cognitive Services API can currently do?",
+        "explanation": "<p>Azure can do all of them, of course.</p><p><br></p><p>For more info: <a href=\"https://azure.microsoft.com/en-us/services/cognitive-services/\">https://azure.microsoft.com/en-us/services/cognitive-services/</a></p>",
+        "feedbacks": ["", "", "", "", "", ""]
+      },
+      "correct_response": ["f"],
+      "section": "Core Azure solutions",
+      "question_plain": "Which of the following is something that Azure Cognitive Services API can currently do?",
+      "related_lectures": []
+    },
+    {
+      "_class": "assessment",
+      "id": 67566720,
+      "assessment_type": "multiple-choice",
+      "prompt": {
+        "relatedLectureIds": "",
+        "answers": [
+          "Bing",
+          "Azure Marketplace",
+          "Choose an image when creating a VM",
+          "Azure mobile app"
+        ],
+        "question": "<p>Where do you go within the Azure Portal to find all of the third-party virtual machines and other offers?</p>",
+        "explanation": "<p>Azure Marketplace contains thousands of services you can rent within the cloud</p><p><br></p><p>For more info: <a href=\"https://azuremarketplace.microsoft.com/en-us\">https://azuremarketplace.microsoft.com/en-us</a> </p>",
+        "feedbacks": ["", "", "", ""]
+      },
+      "correct_response": ["b"],
+      "section": "Core Azure solutions",
+      "question_plain": "Where do you go within the Azure Portal to find all of the third-party virtual machines and other offers?",
+      "related_lectures": []
+    },
+    {
+      "_class": "assessment",
+      "id": 67566722,
+      "assessment_type": "multiple-choice",
+      "prompt": {
+        "relatedLectureIds": "",
+        "answers": ["TRUE", "FALSE"],
+        "question": "True or false: Azure Cloud Shell allows access to the CLI and Powershell consoles in the Azure Portal",
+        "explanation": "<p>Cloud Shell - allows access to the CLI and Powershell consoles in the Azure Portal</p><p><br></p><p>For more info: <a href=\"https://docs.microsoft.com/en-us/azure/cloud-shell/overview\">https://docs.microsoft.com/en-us/azure/cloud-shell/overview</a></p>",
+        "feedbacks": ["", ""]
+      },
+      "correct_response": ["a"],
+      "section": "Azure management tools",
+      "question_plain": "True or false: Azure Cloud Shell allows access to the CLI and Powershell consoles in the Azure Portal",
+      "related_lectures": []
+    },
+    {
+      "_class": "assessment",
+      "id": 67566724,
+      "assessment_type": "multiple-choice",
+      "prompt": {
+        "relatedLectureIds": "",
+        "answers": ["TRUE", "FALSE"],
+        "question": "<p>True of false: Azure Powershell scripts and Command Line Interface (CLI) scripts are entirely compatible with each other?</p>",
+        "explanation": "<p>No, PowerShell is it's own language, different than CLI</p><p><br></p><p>For more info: <a href=\"https://devblogs.microsoft.com/premier-developer/choosing-the-right-tooling-for-azure-and-side-by-side-azure-cli-and-powershell-commands/\">https://devblogs.microsoft.com/premier-developer/choosing-the-right-tooling-for-azure-and-side-by-side-azure-cli-and-powershell-commands/</a></p>",
+        "feedbacks": ["", ""]
+      },
+      "correct_response": ["b"],
+      "section": "Azure management tools",
+      "question_plain": "True of false: Azure Powershell scripts and Command Line Interface (CLI) scripts are entirely compatible with each other?",
+      "related_lectures": []
+    },
+    {
+      "_class": "assessment",
+      "id": 67566726,
+      "assessment_type": "multiple-choice",
+      "prompt": {
+        "relatedLectureIds": "",
+        "answers": [
+          "Azure Service Health",
+          "Azure Dashboard",
+          "Azure Advisor",
+          "Azure Monitor"
+        ],
+        "question": "Which tool within the Azure Portal will make specific recommendations based on your actual usage for how you can improve your use of Azure?",
+        "explanation": "<p>Azure Advisor - a tool that will analyze your use of Azure and make you specific recommendations based on your usage across availability, security, performance and cost categories</p><p>For more info: <a href=\"https://docs.microsoft.com/en-us/azure/advisor/\">https://docs.microsoft.com/en-us/azure/advisor/</a></p>",
+        "feedbacks": ["", "", "", ""]
+      },
+      "correct_response": ["c"],
+      "section": "Azure management tools",
+      "question_plain": "Which tool within the Azure Portal will make specific recommendations based on your actual usage for how you can improve your use of Azure?",
+      "related_lectures": []
+    },
+    {
+      "_class": "assessment",
+      "id": 67566728,
+      "assessment_type": "multiple-choice",
+      "prompt": {
+        "relatedLectureIds": "",
+        "answers": [
+          "Azure Firewall",
+          "Application Gateway with WAF",
+          "Azure DDos Standard protection",
+          "Network Security Group"
+        ],
+        "question": "What is the basic way of protecting an Azure Virtual Network subnet?",
+        "explanation": "<p>Network Security Group (NSG) - a fairly basic set of rules that you can apply to both inbound traffic and outbound traffic that lets you specify what sources, destinations and ports are allowed to travel through from outside the virtual network to inside the virtual network</p><p>For more info: <a href=\"https://docs.microsoft.com/en-us/azure/virtual-network/security-overview\">https://docs.microsoft.com/en-us/azure/virtual-network/security-overview</a></p>",
+        "feedbacks": ["", "", "", ""]
+      },
+      "correct_response": ["d"],
+      "section": "Azure management tools",
+      "question_plain": "What is the basic way of protecting an Azure Virtual Network subnet?",
+      "related_lectures": []
+    },
+    {
+      "_class": "assessment",
+      "id": 67566730,
+      "assessment_type": "multiple-choice",
+      "prompt": {
+        "relatedLectureIds": "",
+        "answers": [
+          "A denial of service attack that sends so much traffic to a network that it cannot respond fast enough; legitimate users become unable to use the service",
+          "An attempt to send SQL commands to the server in a way that it will execute them against the database",
+          "An attempt to read the contents of a web page from another website, thereby stealing the user&#39;s private information",
+          "An attempt to guess a user&#39;s password through brute force methods"
+        ],
+        "question": "What is a DDoS attack?",
+        "explanation": "<p>Distributed Denial of Service attacks (DDoS) -a type of attack that originates from the Internet that attemps to overwhelm a network with millions of packets of bad traffic that aims to prevent legitimate traffic from getting through</p><p>For more info: <a href=\"https://docs.microsoft.com/en-us/azure/virtual-network/ddos-protection-overview\">https://docs.microsoft.com/en-us/azure/virtual-network/ddos-protection-overview</a></p>",
+        "feedbacks": ["", "", "", ""]
+      },
+      "correct_response": ["a"],
+      "section": "Secure Azure Networking",
+      "question_plain": "What is a DDoS attack?",
+      "related_lectures": []
+    },
+    {
+      "_class": "assessment",
+      "id": 67566732,
+      "assessment_type": "multi-select",
+      "prompt": {
+        "question": "What two types of DDoS protection services does Azure provide? Select two.",
+        "relatedLectureIds": "",
+        "feedbacks": ["", "", "", ""],
+        "explanation": "<p>Azure DDoS Protection offers two types of DDoS protection services:</p><ul><li><p><strong>Network Protection</strong> protects against volumetric attacks that target the network infrastructure. This type of protection is available for all Azure resources that are deployed in a virtual network.</p></li><li><p><strong>IP Protection</strong> protects against volumetric and protocol-based attacks that target specific public IP addresses. This type of protection is available for public IP addresses that are not deployed in a virtual network.</p></li></ul><p>For more info: <a href=\"https://docs.microsoft.com/en-us/azure/virtual-network/ddos-protection-overview\">https://docs.microsoft.com/en-us/azure/virtual-network/ddos-protection-overview</a></p>",
+        "answers": [
+          "<p>DDoS Network Protection</p>",
+          "<p>DDoS IP Protection</p>",
+          "<p>DDoS&nbsp;Advanced Protection</p>",
+          "<p>DDoS&nbsp;Premium Protection</p>"
+        ]
+      },
+      "correct_response": ["a", "b"],
+      "section": "Secure Azure Networking",
+      "question_plain": "What two types of DDoS protection services does Azure provide? Select two.",
+      "related_lectures": []
+    },
+    {
+      "_class": "assessment",
+      "id": 67566734,
+      "assessment_type": "multiple-choice",
+      "prompt": {
+        "relatedLectureIds": "",
+        "answers": [
+          "It doesn&#39;t make it more secure",
+          "It is another password that a user has to memorize, making it more secure",
+          "<p>It requires the user to have access to an additional device for identity verification</p>",
+          "It allows the user to log in without a password because they have already previously been validated using a browser coookie"
+        ],
+        "question": "How does Multi-Factor Authentication make a system more secure?",
+        "explanation": "<p>Multi-Factor Authentication (MFA) - the concept of having something additional to a “password” that is required to log in; passwords are findable or guessable; but having your mobile phone on you to receive a phone call, text or run an app to get a code is harder for a unknown hacker to get</p><p>For more info: <a href=\"https://docs.microsoft.com/en-us/azure/active-directory/authentication/concept-mfa-howitworks\">https://docs.microsoft.com/en-us/azure/active-directory/authentication/concept-mfa-howitworks</a></p>",
+        "feedbacks": ["", "", "", ""]
+      },
+      "correct_response": ["c"],
+      "section": "Azure Identity services",
+      "question_plain": "How does Multi-Factor Authentication make a system more secure?",
+      "related_lectures": []
+    },
+    {
+      "_class": "assessment",
+      "id": 67566736,
+      "assessment_type": "multiple-choice",
+      "prompt": {
+        "relatedLectureIds": "",
+        "answers": [
+          "Azure Active Directory",
+          "Facebook Connect",
+          "Live Connect",
+          "Network Security Group"
+        ],
+        "question": "What is Azure&#39;s preferred Identity/authentication service?",
+        "explanation": "<p>Azure Active Directory (Azure AD) - Microsoft’s preferred Identity as a Service solution</p><p>For more info: <a href=\"https://docs.microsoft.com/en-us/azure/active-directory/fundamentals/active-directory-whatis\">https://docs.microsoft.com/en-us/azure/active-directory/fundamentals/active-directory-whatis</a></p>",
+        "feedbacks": ["", "", "", ""]
+      },
+      "correct_response": ["a"],
+      "section": "Azure Identity services",
+      "question_plain": "What is Azure&#39;s preferred Identity/authentication service?",
+      "related_lectures": []
+    },
+    {
+      "_class": "assessment",
+      "id": 67566738,
+      "assessment_type": "multiple-choice",
+      "prompt": {
+        "feedbacks": ["", "", ""],
+        "answers": [
+          "When you sign into an application, it remembers who you are the next time you go there.",
+          "<p>The ability to log in once and use the existing userid and password to sign in other applications, and not have to create/memorize a new one.</p>",
+          "When an application outsources (federates) it&#39;s identity service to a third-party platform"
+        ],
+        "question": "What is Single Sign-On?",
+        "explanation": "<p>Single-Sign On - the ability to use the same user id and password to log into every application that your company has; enabled by Azure AD</p><p>For more info: <a href=\"https://docs.microsoft.com/en-us/azure/active-directory/manage-apps/what-is-single-sign-on\">https://docs.microsoft.com/en-us/azure/active-directory/manage-apps/what-is-single-sign-on</a></p>",
+        "relatedLectureIds": ""
+      },
+      "correct_response": ["b"],
+      "section": "Azure Identity services",
+      "question_plain": "What is Single Sign-On?",
+      "related_lectures": []
+    },
+    {
+      "_class": "assessment",
+      "id": 67566740,
+      "assessment_type": "multiple-choice",
+      "prompt": {
+        "answers": [
+          "Separate servers into distinct subnets by role",
+          "Locks on the data center doors",
+          "Keep operating systems up to date with patches",
+          "Use a firewall"
+        ],
+        "question": "Which of the following elements is considered part of the &quot;perimeter&quot; layer of security?",
+        "explanation": "Firewall is part of the perimeter security"
+      },
+      "correct_response": ["d"],
+      "section": "Security tools and features",
+      "question_plain": "Which of the following elements is considered part of the &quot;perimeter&quot; layer of security?",
+      "related_lectures": []
+    },
+    {
+      "_class": "assessment",
+      "id": 67566742,
+      "assessment_type": "multiple-choice",
+      "prompt": {
+        "relatedLectureIds": "",
+        "answers": [
+          "Separate servers into distinct subnets by role",
+          "Locks on the data center doors",
+          "Keep operating systems up to date with patches",
+          "Use a firewall"
+        ],
+        "question": "Which of the following elements is considered part of the &quot;network&quot; layer of network security?",
+        "explanation": "<p>Subnets is part of network security</p><p>For more info: <a href=\"https://docs.microsoft.com/en-us/azure/security/fundamentals/network-overview\">https://docs.microsoft.com/en-us/azure/security/fundamentals/network-overview</a></p>",
+        "feedbacks": ["", "", "", ""]
+      },
+      "correct_response": ["a"],
+      "section": "Security tools and features",
+      "question_plain": "Which of the following elements is considered part of the &quot;network&quot; layer of network security?",
+      "related_lectures": []
+    },
+    {
+      "_class": "assessment",
+      "id": 67566744,
+      "assessment_type": "multiple-choice",
+      "prompt": {
+        "relatedLectureIds": "",
+        "answers": [
+          "Within the application code",
+          "In an Azure Storage account private blob container",
+          "Azure Key Vault",
+          "Azure Advanced Threat Protection (ATP)"
+        ],
+        "question": "What is the recommended way within Azure to store secrets such as private cryptographic keys?",
+        "explanation": "<p>Azure Key Vault - the modern way to store cryptographic keys, signed certificates and secrets in Azure</p><p>For more info: <a href=\"https://docs.microsoft.com/en-us/azure/key-vault/\">https://docs.microsoft.com/en-us/azure/key-vault/</a></p>",
+        "feedbacks": ["", "", "", ""]
+      },
+      "correct_response": ["c"],
+      "section": "Security tools and features",
+      "question_plain": "What is the recommended way within Azure to store secrets such as private cryptographic keys?",
+      "related_lectures": []
+    },
+    {
+      "_class": "assessment",
+      "id": 67566746,
+      "assessment_type": "multiple-choice",
+      "prompt": {
+        "answers": [
+          "Prevent certain Azure Virtual Machine instance types from being used in a resource group",
+          "Require a virtual machine to always update to the latest security patches",
+          "Allow only one specific roles of users to have access to a resource group",
+          "Add an additional prompt when creating a resource without a specific tag to ask the user if they are really sure they want to continue?"
+        ],
+        "question": "Which of the following scenarios would Azure Policy be a recommended method for enforcement?",
+        "explanation": "Azure Policy can add restrictions on storage account SKUs, virtual machine instance types, and rules relating to tagging of resources and groups. It cannot prompt a user to ask them if they are sure."
+      },
+      "correct_response": ["a"],
+      "section": "Azure governance methodologies",
+      "question_plain": "Which of the following scenarios would Azure Policy be a recommended method for enforcement?",
+      "related_lectures": []
+    },
+    {
+      "_class": "assessment",
+      "id": 67566748,
+      "assessment_type": "multiple-choice",
+      "prompt": {
+        "relatedLectureIds": "",
+        "answers": ["TRUE", "FALSE"],
+        "question": "True or false: you can create your own policies if built-in Azure Policy is not sufficient to your needs",
+        "explanation": "<p>True, you can create custom policies using JSON</p><p>For more info: <a href=\"https://docs.microsoft.com/en-us/azure/governance/policy/overview\">https://docs.microsoft.com/en-us/azure/governance/policy/overview</a></p>",
+        "feedbacks": ["", ""]
+      },
+      "correct_response": ["a"],
+      "section": "Azure governance methodologies",
+      "question_plain": "True or false: you can create your own policies if built-in Azure Policy is not sufficient to your needs",
+      "related_lectures": []
+    },
+    {
+      "_class": "assessment",
+      "id": 67566750,
+      "assessment_type": "multiple-choice",
+      "prompt": {
+        "relatedLectureIds": "",
+        "answers": [
+          "Azure Portal Dashboard",
+          "Storage Account or Event Hub",
+          "Azure Monitor",
+          "Azure Security Center"
+        ],
+        "question": "Which feature within Azure collects all of the logs from various resources into a central dashboard, where you can run queries, view graphs, and create alerts on certain events?",
+        "explanation": "<p>Azure Monitor - a centralized dashboard that collects all the logs, metrics and events from your resources</p><p>For more info: <a href=\"https://docs.microsoft.com/en-us/azure/azure-monitor/overview\">https://docs.microsoft.com/en-us/azure/azure-monitor/overview</a></p>",
+        "feedbacks": ["", "", "", ""]
+      },
+      "correct_response": ["c"],
+      "section": "Monitoring and reporting",
+      "question_plain": "Which feature within Azure collects all of the logs from various resources into a central dashboard, where you can run queries, view graphs, and create alerts on certain events?",
+      "related_lectures": []
+    },
+    {
+      "_class": "assessment",
+      "id": 67566752,
+      "assessment_type": "multiple-choice",
+      "prompt": {
+        "question": "<p>Which feature within Azure alerts you to service issues that happen in Azure itself, not specifically related to your own resources?</p>",
+        "relatedLectureIds": "",
+        "feedbacks": ["", "", "", ""],
+        "explanation": "<p>Azure Service Health - lets you know about any Azure-related service issues including region-wide downtime</p><p>For more info: <a href=\"https://docs.microsoft.com/en-us/azure/service-health/overview\">https://docs.microsoft.com/en-us/azure/service-health/overview</a></p>",
+        "answers": [
+          "Azure Portal Dashboard",
+          "Azure Service Health",
+          "Azure Monitor",
+          "Azure Security Center"
+        ]
+      },
+      "correct_response": ["b"],
+      "section": "Monitoring and reporting",
+      "question_plain": "Which feature within Azure alerts you to service issues that happen in Azure itself, not specifically related to your own resources?",
+      "related_lectures": []
+    },
+    {
+      "_class": "assessment",
+      "id": 67566754,
+      "assessment_type": "multiple-choice",
+      "prompt": {
+        "relatedLectureIds": "",
+        "answers": [
+          "International Organization for Standardization",
+          "Information Systems Officer",
+          "Intelligence and Security Office",
+          "Instead of"
+        ],
+        "question": "Within the context of privacy and compliance, what does the acronym ISO stand for, in English?",
+        "explanation": "<p>ISO is a standards body, International Organization for Standardization</p><p>For more info: <a href=\"https://www.iso.org/about-us.html\">https://www.iso.org/about-us.html</a></p>",
+        "feedbacks": ["", "", "", ""]
+      },
+      "correct_response": ["a"],
+      "section": "Privacy and compliance",
+      "question_plain": "Within the context of privacy and compliance, what does the acronym ISO stand for, in English?",
+      "related_lectures": []
+    },
+    {
+      "_class": "assessment",
+      "id": 67566756,
+      "assessment_type": "multiple-choice",
+      "prompt": {
+        "relatedLectureIds": "",
+        "answers": [
+          "Documentation on the individual Azure services and solutions",
+          "A tool that helps you manage your compliance to various standards",
+          "A list of standards that Microsoft follows, pen test results, security assessments, white papers, faqs, and other documents that can be used to show Microsoft&#39;s compliance efforts",
+          "Specific recommendations about your usage of Azure and ways you can improve"
+        ],
+        "question": "What type of documents does the Microsoft Service Trust Portal provide?",
+        "explanation": "<p>A list of standards that Microsoft follows, pen test results, security assessments, white papers, faqs, and other documents that can be used to show Microsoft's compliance efforts</p><p>For more info: <a href=\"https://servicetrust.microsoft.com/\">https://servicetrust.microsoft.com/</a></p>",
+        "feedbacks": ["", "", "", ""]
+      },
+      "correct_response": ["c"],
+      "section": "Privacy and compliance",
+      "question_plain": "What type of documents does the Microsoft Service Trust Portal provide?",
+      "related_lectures": []
+    },
+    {
+      "_class": "assessment",
+      "id": 67566758,
+      "assessment_type": "multiple-choice",
+      "prompt": {
+        "relatedLectureIds": "",
+        "answers": ["TRUE", "FALSE"],
+        "question": "True or false: You cannot have more than one Azure subscription per company",
+        "explanation": "<p>You can have multiple subscriptions, as a way to seperate out resources between billing units, business groups, or for any reason you wish.</p><p>For more info: <a href=\"https://docs.microsoft.com/en-us/azure/cloud-adoption-framework/ready/azure-best-practices/scale-subscriptions\">https://docs.microsoft.com/en-us/azure/cloud-adoption-framework/ready/azure-best-practices/scale-subscriptions</a></p>",
+        "feedbacks": ["", ""]
+      },
+      "correct_response": ["b"],
+      "section": "Azure subscriptions",
+      "question_plain": "True or false: You cannot have more than one Azure subscription per company",
+      "related_lectures": []
+    },
+    {
+      "_class": "assessment",
+      "id": 67566760,
+      "assessment_type": "multiple-choice",
+      "prompt": {
+        "relatedLectureIds": "",
+        "answers": [
+          "Management Groups",
+          "Resource Groups",
+          "RBAC",
+          "Azure Active Directory"
+        ],
+        "question": "What Azure tool gives you the ability to manage multiple subscriptions into nested hierarchies?",
+        "explanation": "<p>Management Groups - a hierarchy of subscriptions; can have many subscriptions, and group them, and put those groups into other groups</p><p>For more info: <a href=\"https://docs.microsoft.com/en-us/azure/governance/management-groups/overview\">https://docs.microsoft.com/en-us/azure/governance/management-groups/overview</a></p>",
+        "feedbacks": ["", "", "", ""]
+      },
+      "correct_response": ["a"],
+      "section": "Azure subscriptions",
+      "question_plain": "What Azure tool gives you the ability to manage multiple subscriptions into nested hierarchies?",
+      "related_lectures": []
+    },
+    {
+      "_class": "assessment",
+      "id": 67566762,
+      "assessment_type": "multiple-choice",
+      "prompt": {
+        "relatedLectureIds": "",
+        "answers": [
+          "You are given $50 per month, for one year towards Azure services",
+          "Azure does not give you any free credits when you create a free account",
+          "The default is US$200",
+          "You can create 1 Linux VM, 1 Windows VM, and a number of other free services for the first year."
+        ],
+        "question": "What is the default amount of credits that you are given when you first create an Azure Free account?",
+        "explanation": "<p>There are some other benefits to a free account, but you get US$200 to spend in the first month.</p><p>For more info: <a href=\"https://azure.microsoft.com/en-us/free/\">https://azure.microsoft.com/en-us/free/</a></p>",
+        "feedbacks": ["", "", "", ""]
+      },
+      "correct_response": ["c"],
+      "section": "Azure costs",
+      "question_plain": "What is the default amount of credits that you are given when you first create an Azure Free account?",
+      "related_lectures": []
+    },
+    {
+      "_class": "assessment",
+      "id": 67566764,
+      "assessment_type": "multiple-choice",
+      "prompt": {
+        "relatedLectureIds": "",
+        "answers": ["TRUE", "FALSE"],
+        "question": "True or false: Azure charges for bandwidth used &quot;inbound&quot; to Azure",
+        "explanation": "<p>Ingress bandwidth is free. You pay for egress (outbound).</p><p>For more info: <a href=\"https://azure.microsoft.com/en-us/pricing/details/bandwidth/\">https://azure.microsoft.com/en-us/pricing/details/bandwidth/</a></p>",
+        "feedbacks": ["", ""]
+      },
+      "correct_response": ["b"],
+      "section": "Azure costs",
+      "question_plain": "True or false: Azure charges for bandwidth used &quot;inbound&quot; to Azure",
+      "related_lectures": []
+    },
+    {
+      "_class": "assessment",
+      "id": 67566766,
+      "assessment_type": "multiple-choice",
+      "prompt": {
+        "answers": ["TRUE", "FALSE"],
+        "explanation": "<p>No, Azure Active Directory is an enterprise identity service that provides single sign-on and multi-factor authentication.</p><p>For more info: <a href=\"https://azure.microsoft.com/en-us/services/active-directory/\">https://azure.microsoft.com/en-us/services/active-directory/</a></p>",
+        "relatedLectureIds": "",
+        "feedbacks": ["", ""],
+        "question": "<p>True or false: Azure Active Directory is a network gateway that load balances user logins using a CDN (Content Delivery Network).</p>"
+      },
+      "correct_response": ["b"],
+      "section": "Azure Identity services",
+      "question_plain": "True or false: Azure Active Directory is a network gateway that load balances user logins using a CDN (Content Delivery Network).",
+      "related_lectures": []
+    },
+    {
+      "_class": "assessment",
+      "id": 67566768,
+      "assessment_type": "multi-select",
+      "prompt": {
+        "relatedLectureIds": "",
+        "answers": [
+          "<p>Application management</p>",
+          "<p>Authentication</p>",
+          "<p>Functions</p>",
+          "<p>Logic Apps</p>",
+          "<p>Logs Analytics</p>",
+          "<p>Azure DDoS Protection</p>"
+        ],
+        "question": "<p>What are the two features that Azure AD provides? Choose two.</p>",
+        "explanation": "<p>Azure AD provides many features, but only the two are listed.</p><p>Reference: <a href=\"https://docs.microsoft.com/en-us/azure/active-directory/fundamentals/active-directory-whatis\">https://docs.microsoft.com/en-us/azure/active-directory/fundamentals/active-directory-whatis</a></p>",
+        "feedbacks": ["", "", "", "", "", ""]
+      },
+      "correct_response": ["a", "b"],
+      "section": "Azure Identity services",
+      "question_plain": "What are the two features that Azure AD provides? Choose two.",
+      "related_lectures": []
+    },
+    {
+      "_class": "assessment",
+      "id": 67566770,
+      "assessment_type": "multiple-choice",
+      "prompt": {
+        "relatedLectureIds": "",
+        "answers": [
+          "It&#39;s not possible. Azure will always meet it&#39;s SLA?",
+          "<p>A discount will be applied to the customer's Azure bill (as a service credit), which is a compensation for an under-performing Azure product or service</p>",
+          "The service will be free that month",
+          "<p>The resource that did not meet the SLA will be free for the remaining month and the next.</p>"
+        ],
+        "question": "What happens if Azure does not meet its own Service Level Agreement guarantee (SLA)?",
+        "explanation": "<p>Microsoft offers a service credit percentage depending on the missed SLA.</p><p>For more info: <a href=\"https://docs.microsoft.com/en-us/learn/modules/explore-azure-service-level-agreements/3-explore-slas-for-azure-products-services\">https://docs.microsoft.com/en-us/learn/modules/explore-azure-service-level-agreements/3-explore-slas-for-azure-products-services</a></p>",
+        "feedbacks": ["", "", "", ""]
+      },
+      "correct_response": ["b"],
+      "section": "Azure SLAs",
+      "question_plain": "What happens if Azure does not meet its own Service Level Agreement guarantee (SLA)?",
+      "related_lectures": []
+    },
+    {
+      "_class": "assessment",
+      "id": 67566772,
+      "assessment_type": "multiple-choice",
+      "prompt": {
+        "relatedLectureIds": "",
+        "answers": [
+          "You have to apply to get selected in order to use that service",
+          "Anyone can use the service for any reason",
+          "<p>Anyone can use the service but normal service level agreements do not apply</p>",
+          "The service is generally available for use, and Microsoft will provide support for it"
+        ],
+        "question": "What does it mean if a service is in Public Preview mode?",
+        "explanation": "<p>Public Preview is for anyone to use, but it is not supported nor guaranteed to continue to be available</p><p>For more info: <a href=\"https://azure.microsoft.com/en-us/support/legal/preview-supplemental-terms/\">https://azure.microsoft.com/en-us/support/legal/preview-supplemental-terms/</a></p>",
+        "feedbacks": ["", "", "", ""]
+      },
+      "correct_response": ["c"],
+      "section": "Azure SLAs",
+      "question_plain": "What does it mean if a service is in Public Preview mode?",
+      "related_lectures": []
+    },
+    {
+      "_class": "assessment",
+      "id": 67566774,
+      "assessment_type": "multiple-choice",
+      "prompt": {
+        "relatedLectureIds": "",
+        "answers": [
+          "You have to apply to get selected in order to use that service",
+          "Anyone can use the service for any reason",
+          "Anyone can use the service but it must not be for production use",
+          "The service is generally available for use, and Microsoft will provide support for it"
+        ],
+        "question": "What does it mean if a service is in Private Preview mode?",
+        "explanation": "<p>Private Preview means you have to apply to use a service, and you may or may not be selected</p><p>For more info: <a href=\"https://azure.microsoft.com/en-us/support/legal/preview-supplemental-terms/\">https://azure.microsoft.com/en-us/support/legal/preview-supplemental-terms/</a></p>",
+        "feedbacks": ["", "", "", ""]
+      },
+      "correct_response": ["a"],
+      "section": "Service lifecycle in Azure",
+      "question_plain": "What does it mean if a service is in Private Preview mode?",
+      "related_lectures": []
+    },
+    {
+      "_class": "assessment",
+      "id": 67566776,
+      "assessment_type": "multiple-choice",
+      "prompt": {
+        "relatedLectureIds": "",
+        "answers": [
+          "You have to apply to get selected in order to use that service",
+          "Anyone can use the service for any reason",
+          "Anyone can use the service but it must not be for production use",
+          "<p>The service is available for use by some, and Microsoft will provide support for it</p>"
+        ],
+        "question": "What does it mean if a service is in General Availability (GA) mode?",
+        "explanation": "<p>Anyone can use a GA service. It is fully supported and can be used for production.</p><p>For more info: <a href=\"https://azure.microsoft.com/en-us/support/legal/preview-supplemental-terms/\">https://azure.microsoft.com/en-us/support/legal/preview-supplemental-terms/</a></p>",
+        "feedbacks": ["", "", "", ""]
+      },
+      "correct_response": ["b"],
+      "section": "Service lifecycle in Azure",
+      "question_plain": "What does it mean if a service is in General Availability (GA) mode?",
+      "related_lectures": []
+    },
+    {
+      "_class": "assessment",
+      "id": 67566778,
+      "assessment_type": "multi-select",
+      "prompt": {
+        "question": "<p>Which Azure AD licenses (select two) are made available through Azure? </p>",
+        "relatedLectureIds": "",
+        "feedbacks": ["", "", "", "", ""],
+        "explanation": "<p>Azure Active Directory provides the following licenses: Free, Office 365, Premium P1, and Premium P2.</p><p>For more info: <a href=\"https://www.microsoft.com/en-us/security/business/identity-access-management/azure-ad-pricing\">Azure Active Directory Pricing | Microsoft Security</a></p>",
+        "answers": [
+          "<p>Azure Active Directory Free</p>",
+          "<p>Office 365</p>",
+          "<p>Business Tier 1</p>",
+          "<p>Enterprise Tier 2</p>",
+          "<p>Basic</p>"
+        ]
+      },
+      "correct_response": ["a", "b"],
+      "section": "Azure Identity services",
+      "question_plain": "Which Azure AD licenses (select two) are made available through Azure?",
+      "related_lectures": []
+    }
+  ]
+}

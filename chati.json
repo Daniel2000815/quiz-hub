@@ -1,0 +1,51 @@
+{
+    "questions": [
+        {
+            "question": "<p>I&nbsp;want to create a service for taking cinema bookings. What would be the first AI&nbsp;service I should think of using?</p>",
+            "options": [
+                "<p>Azure Machine Learning</p>",
+                "<p>Azure Cognitive Services</p>",
+                "<p>Azure Bot Service</p>",
+                "<p>IoT Central</p>"
+            ],
+            "answers": [
+                "c"
+            ]
+        },
+        {
+            "question": "<p>Necesitas prevenir la eliminaci\u00f3n accidental de una m\u00e1quina virtual (VM) cr\u00edtica dentro de un Grupo de Recursos de Azure. El personal debe tener la capacidad de modificar la configuraci\u00f3n de la VM cuando sea necesario, como cambiar su tama\u00f1o. \u00bfQu\u00e9 m\u00e9todo deber\u00edas emplear para lograr esto?</p>\n",
+            "options": [
+                "<p>Aplicar un bloqueo de eliminaci\u00f3n a la VM</p>",
+                "<p>Aplicar un bloqueo de solo lectura a la VM</p>", "<p>Aplicar una pol\u00edtica de Azure a la VM para prevenir 
+su eliminaci\u00f3n</p>", "<p>Implementar una pol\u00edtica de acceso condicional que impida la eliminaci\u00f3n</p>"], "answers": ["a"]}, {"question": "<p><strong>When a blob is in the archive access tier, what must you do first before accessing it?</strong></p>", "options": ["<p>Rehydrate it</p>", "<p>Move it to File Storage</p>", "<p>Modify its policy</p>", "<p>Add it to a new resource group</p>"], "answers": ["a"]}, {"question": "<p><strong>Which of the following do Azure Arc-enabled servers allow you to do?</strong></p>", "options": ["<p>Deploy virtual machines in Azure regions.</p>", "<p>Extend Azure Resource Manager templates to on-premises environments.</p>", "<p>Manage and govern Azure Active Directory.</p>", "<p>Monitor Azure Logic Apps.</p>"], "answers": ["b"]}, {"question": "<p>Which of these plans provide you with access to Azure delivery managers to get proactive guidance and advisory consultation?</p>", "options": ["<p>Basic</p>", "<p>Developer</p>", "<p>Standard</p>", "<p>Professional Direct</p>"], "answers": ["d"]}, {"question": "<p><strong>What is the primary purpose of a Network Security Group (NSG) in Azure?</strong></p>", "options": ["<p>To create virtual networks </p>", "<p>To filter network traffic</p>", "<p>To manage Azure subscriptions </p>", "<p>To configure DNS settings</p>"], "answers": ["b"]}, {"question": "<p><strong>What is the primary purpose of Azure Conditional Access?</strong></p>", "options": ["<p>Managing user identities </p>", "<p>Defining roles and permissions</p>", "<p>Applying access controls based on conditions </p>", "<p>Securing Azure virtual machines</p>"], "answers": ["c"]}, {"question": "<p>Select \"Yes\" if the following statement is true, otherwise select \"No\". &nbsp;&nbsp; </p><p><br></p><p>Users are responsible for managing access keys for Azure Storage accounts.</p>",
+                "options": [
+                    "Yes",
+                    "No"
+                ],
+                "answers": [
+                    "a"
+                ]
+            },
+            {
+                "question": "<p>A company is planning on using Azure Storage Accounts and using the paired-region facility when it comes to data redundancy. Can you decide which paired region is used by the underlying Azure storage service?</p>",
+                "options": [
+                    "<p>Yes</p>",
+                    "<p>No</p>"
+                ],
+                "answers": [
+                    "b"
+                ]
+            },
+            {
+                "question": "<p>Este modelo es \u00fatil, para alcanzar los requerimientos de seguridad y legales</p>",
+                "options": [
+                    "<p>Nube privada</p>",
+                    "<p>Nube p\u00fablica</p>",
+                    "<p>Nube h\u00edbrida</p>"
+                ],
+                "answers": [
+                    "c"
+                ]
+            }
+        ]
+    }
